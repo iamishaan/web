@@ -1,0 +1,252 @@
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+
+body{
+	background:url("../images/tax.jpg") 0px 0px no-repeat;
+	 opacity: 0.6;
+
+text-align: center;
+        
+	font-family:Nunito-Light;
+	
+    background-position: center;
+    background-size: cover;
+}
+
+@font-face{
+	font-family: "Nunito-Light";
+	src:url(../fonts/Nunito-Light.ttf);
+}
+
+.main-content{
+	width:32%;
+	background-color: rgba(243, 140, 17, 0.88);
+	margin:50px auto;
+}
+
+h1{
+  font-size:40px;
+  color: #fff;
+  text-align: center;
+  padding-top:20px;
+}
+
+/*----sap-----*/
+.sap_tabs {
+  margin: 50 auto;
+  padding:50px 0px;
+  text-align: center;
+  
+ }
+ 
+.facts{
+  padding: 7% 0% 0% 0%;
+}
+
+.resp-tab-item{
+  border:none;
+  color: #fff;
+  font-size: 24px;
+  font-family:Nunito-Light;
+  cursor: pointer;
+  padding:5px 30px;
+  margin:5px;
+  display: inline-block;
+  list-style: none;
+  outline: none;
+  border:2px solid #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  -webkit-appearance: none;
+}
+
+.resp-tab-item:hover {
+    border:2px solid #fff;
+	text-shadow: none;
+    color: #fff;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+}
+.resp-tab-active {
+    border:2px solid #fff;
+	text-shadow: none;
+    color: #fff;
+	background:rgba(2, 2, 2, 0.60);
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+
+h2.resp-accordion {
+  cursor: pointer;
+  padding: 5px;
+  display: none;
+}
+
+.resp-tab-content {
+  display: none;
+}
+.resp-content-active, .resp-accordion-active {
+   display: block;
+}
+
+
+.register input[type="text"],.register input[type="password"] {
+	outline: none;
+    font-size:16px;
+	font-family:Nunito-Light;
+	color: #fff;
+	padding: 15px 10px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	width: 80%;
+    margin: 0 0 15px 0 ;
+	background:rgba(2, 2, 2, 0.60);
+}
+
+.sign-up input[type="submit"] {
+    background:rgba(2, 2, 2, 0.60);
+    color: #fff;
+	border: 2px solid #fff;
+    font-size: 18px;
+	font-family:Nunito-Light;
+    padding: 15px 10px 15px 15px;
+    width: 85%;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    margin-top:24px;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+}
+.sign-up input[type="submit"]:hover{
+	color: #fff;
+    background:#d8cc52;
+}
+ ::-webkit-input-placeholder{
+	color:#fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #fff; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff;  
+}
+
+:-ms-input-placeholder {  
+   color: #fff;  
+}
+
+h3{
+	padding-top:35px;
+}
+
+.register a{
+	color:#fbfbdd;
+	font-size: 18px;
+	font-family:Nunito-Light;
+}
+
+
+/*---------------*/
+.copy-right {
+  text-align: center;
+   margin:30px 10px 5px 10px;
+   color:#fff;
+}
+.copy-right p {
+	color: #fff;
+	font-family:Nunito-Light;
+	font-size: 16px;
+	font-weight:600;
+}
+.copy-right p a {
+	  color: #d8cc52;
+}
+.copy-right p a:hover {
+	text-decoration: underline;
+}
+.kik
+{
+outline: none;
+    font-size:16px;
+	font-family:Nunito-Light;
+	color: #fff;
+	padding: 15px 10px;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	width: 80%;
+    margin: 0 0 15px 34px ;
+	background:rgba(2, 2, 2, 0.60);
+}
+.klik
+{
+outline: none;
+    font-size:16px;
+	font-family:Nunito-Light;
+	color: #fff;
+	padding: 5px 0 5px 0;
+	border:none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	border-radius: 3px;
+	width: 60%;
+    margin: 0 0 15px 34px ;
+	background:rgba(2, 2, 2, 0.60);
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html >
+
+<head>
+<title>PMT</title>
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900|Quicksand:400,700|Questrial" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+        	<h1><a href="index.html">Plan my Tr!P</a></h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li class="active"><a href="index.html">Home</a></li>
+			    <li><a href="boardon.html">Board ON</a></li>
+				<li><a href="company.html">Check for Company</a></li>
+				<li><a href="gallery.html">Image Gallery</a></li>
+				<li><a href="aboutus.html">About Us</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="wrapper">
+	<div id="banner" class="container">
+		<script type="text/javascript"> 
+var i = 0; 
+var image = new Array();   
+image[0] = "12.jpg"; 
+image[1] = "13.jpg"; 
+image[2] = "14.jpg";    
+var k = image.length-1;    
+
+var caption = new Array(); 
+  
+caption[0] = "Travelling is fun"; 
+caption[1] = "but better when you have a company"; 
+caption[2] = "Go Plan my Tr!p";   
+
+function swapImage(){ 
+var el = document.getElementById("mydiv"); 
+el.innerHTML=caption[i]; 
+var img= document.getElementById("slide"); 
+img.src= image[i];  
+if(i < k ) { i++;}  
+else  { i = 0; } 
+setTimeout("swapImage()",5000);  
+} 
+
+function addLoadEvent(func) { 
+var oldonload = window.onload; 
+if (typeof window.onload != 'function') { 
+window.onload = func; 
+} 
+else { 
+window.onload = function() { 
+if (oldonload) { 
+oldonload(); 
+} 
+func();}}}  
+addLoadEvent(function() { 
+swapImage(); });  
+</script> 
+
+<table style="border:3px solid blue; margin-left:100px"> 
+<tr> 
+<td> 
+<img name="slide" id="slide" alt ="my images" height="600" width="1000" src="1.jpe"/> 
+</td> 
+</tr> 
+<tr> 
+<td align="center"style="font:small-caps bold 15px georgia; color:blue;"> 
+<div id ="mydiv"></div> 
+</tr> 
+</td> 
+</table>
+     <h1><pre style="font-family:Font-Awesome-Social;margin-left:150px">              Need a company ? You are at the Right place</pre></h1>  
+	</div>
+	<div id="welcome" class="container">
+    	
+<div class="title">
+	  <h2>Welcome to our take-off Junction</h2>
+		</div>
+		<p><strong>Plan my Tr!p</strong> is start up exclusively for VIT Students, where Students group up and travel together. 
+		Dates back to the time of our first semester end when we saw people posting on Social networking Sites asking for a company to a particular destination and offering others for car pooling . This perhaps was the best idea that hit our minds , <strong>Why not provide a platform for people to group or club up for some short time or maybe perhaps they match their destination. </strong>This was the sory, make full use of our Website , and keep travelling.<br>
+		<strong>Plan my Tr!p , #SpreadingSmiles #SpreadingJourneys</p>
+	</div>
+	
+<div id="copyright">
+	
+	<ul class="contact">
+		<li><a href="#" class="icon icon-twitter"><span>Twitter</span></a></li>
+		<li><a href="#" class="icon icon-facebook"><span></span></a></li>
+		<li><a href="#" class="icon icon-dribbble"><span>Pinterest</span></a></li>
+		<li><a href="#" class="icon icon-tumblr"><span>Google+</span></a></li>
+		<li><a href="#" class="icon icon-rss"><span>Pinterest</span></a></li>
+	</ul>
+</div>
+</body>
+</html>
